@@ -29,7 +29,7 @@ const FormatShowcase = () => {
           <article className="fade-in-up glow-border-hover rounded-xl border border-foreground/[0.08] bg-card overflow-hidden" style={{ transitionDelay: "100ms" }}>
             <div className="p-6">
               <h3 className="mb-1 text-xl font-bold text-foreground">📝 Markdown</h3>
-              <p className="mb-4 text-sm text-muted-foreground">Perfect for Obsidian, Notion, and GitHub.</p>
+              <p className="mb-4 text-sm text-muted-foreground">Perfect for pasting into Obsidian, Notion, or any Markdown editor.</p>
               <div className="rounded-lg bg-background p-4 text-xs font-mono text-foreground/70">
                 <p className="text-primary">### User</p>
                 <p>How do I handle API rate limits?</p>
@@ -46,7 +46,7 @@ const FormatShowcase = () => {
           <article className="fade-in-up glow-border-hover rounded-xl border border-foreground/[0.08] bg-card overflow-hidden" style={{ transitionDelay: "200ms" }}>
             <div className="p-6">
               <h3 className="mb-1 text-xl font-bold text-foreground">{"{ } "}JSON</h3>
-              <p className="mb-4 text-sm text-muted-foreground">For developers and automation.</p>
+              <p className="mb-4 text-sm text-muted-foreground">Use exported JSON to feed into Python scripts, analysis tools, or AI pipelines.</p>
               <div className="rounded-lg bg-background p-4 text-xs font-mono text-foreground/70">
                 <p>{"{"}</p>
                 <p>{"  "}<span className="text-primary">"role"</span>: "model",</p>

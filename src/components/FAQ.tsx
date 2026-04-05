@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
@@ -12,7 +14,7 @@ const faqs = [
   },
   {
     q: "Does it work with all Google AI Studio models?",
-    a: "Yes — Gemini 1.5 Pro, Gemini 2.0, Gemini 3.1 Pro, and all other models available in Google AI Studio.",
+    a: "Yes — Gemini 1.5 Pro, Gemini 2.0 Flash, Gemini 2.5 Pro, Gemini 3 Flash, Gemini 3.1 Pro, Gemini 3.1 Flash, and all other models available in Google AI Studio.",
   },
   {
     q: "Is the extension free?",
@@ -21,6 +23,26 @@ const faqs = [
   {
     q: "Can I export very long conversations?",
     a: "Yes. The extension uses a smart multi-pass scroll strategy to capture all turns even in 100+ message conversations that use virtual rendering.",
+  },
+  {
+    q: "Can I save my Google AI Studio chat to Obsidian or Notion?",
+    a: "Yes — export as Markdown (.md) and paste it directly into Obsidian, Notion, Roam Research, Logseq, or any app that supports Markdown.",
+  },
+  {
+    q: "How do I save or download my Google AI Studio chat history?",
+    a: "Install the extension, open any conversation in Google AI Studio (aistudio.google.com), click the extension icon, and choose PDF, Markdown, or JSON. Your chat downloads instantly.",
+  },
+  {
+    q: "Does it work with Gemini 2.0, 2.5 Pro, 3 Flash, and Gemini 3.1 Pro in AI Studio?",
+    a: "Yes — it works with all Gemini models available inside Google AI Studio, including Gemini 1.5 Pro, Gemini 2.0 Flash, Gemini 2.5 Pro, Gemini 3 Flash, Gemini 3.1 Pro, Gemini 3.1 Flash, and all other models available in your AI Studio account.",
+  },
+  {
+    q: "Does it work with Gemini thinking/reasoning mode in AI Studio?",
+    a: "Yes. Thinking-mode outputs are fully captured in the export.",
+  },
+  {
+    q: "What's the difference between PDF and Markdown export for AI Studio chats?",
+    a: "PDF preserves the visual layout with dark mode styling, great for sharing or archiving. Markdown exports clean, structured text you can edit in any markdown tool like Obsidian or VS Code.",
   },
 ];
 

@@ -1,7 +1,7 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Lock, ArrowDown } from "lucide-react";
-import extensionScreenshot from "@/assets/extension-screenshot-placeholder.png";
-import webStoreLogo from "@/assets/web-store-logo.png";
 
 
 const Hero = () => {
@@ -23,14 +23,14 @@ const Hero = () => {
 
         {/* Sub-headline */}
         <p className="fade-in-up mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-          One click to save any Google AI Studio chat as a perfectly formatted PDF, Markdown, or JSON file. <strong className="text-foreground">Fully private. No servers. No cloud.</strong>
+          One click to save any Google AI Studio chat as a perfectly formatted PDF, Markdown, or JSON file. Download and keep your AI conversations locally — <strong className="text-foreground">fully private, no servers, no cloud.</strong>
         </p>
 
         {/* CTAs */}
         <div className="fade-in-up mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button variant="hero" size="lg" className="px-6" asChild>
             <a href="/#cws">
-              <img src={webStoreLogo} alt="Chrome Web Store" className="h-7 w-7 mr-2.5" />
+              <img src="/assets/web-store-logo.png" alt="Chrome Web Store" className="h-7 w-7 mr-2.5" />
               <span className="text-base">Add to Chrome — It's Free</span>
             </a>
           </Button>
@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="fade-in-up mx-auto mt-16 max-w-md">
           <div className="glow-primary rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src={extensionScreenshot}
+              src="/assets/extension-screenshot-placeholder.png"
               alt="Google AI Studio Chat Exporter extension popup showing PDF, Markdown, and JSON export options with dark mode toggle and progress bar"
               className="w-full h-auto"
               loading="lazy"

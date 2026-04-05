@@ -1,5 +1,0 @@
-User-agent: *
-# Allow: / is explicit for readability — implicit by default
-Allow: /
-
-Sitemap: https://aistudio-chat-exporter.vercel.app/sitemap.xml

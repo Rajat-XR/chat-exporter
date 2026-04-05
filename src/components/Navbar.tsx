@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import logoPlaceholder from "@/assets/logo-placeholder.png";
-import webStoreLogo from "@/assets/web-store-logo.png";
 
 
 const Navbar = () => {
@@ -8,7 +6,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-foreground/5 bg-background/70 backdrop-blur-xl">
       <div className="container flex h-16 items-center justify-between">
         <a href="/" className="flex items-center gap-2.5">
-          <img src={logoPlaceholder} alt="Google AI Studio Chat Exporter logo" className="h-8 w-8 rounded-lg" width={32} height={32} />
+          <img src="/assets/logo-placeholder.png" alt="Google AI Studio Chat Exporter logo" className="h-8 w-8 rounded-lg" width={32} height={32} />
           <span className="text-base font-semibold tracking-tight text-foreground whitespace-nowrap">
             Google AI Studio Chat Exporter
           </span>
@@ -21,7 +19,7 @@ const Navbar = () => {
           <a href="/privacy" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Privacy</a>
           <Button variant="hero" size="sm" asChild>
             <a href="/#cws">
-              <img src={webStoreLogo} alt="Chrome Web Store" className="h-4 w-4 mr-1.5" />
+              <img src="/assets/web-store-logo.png" alt="Chrome Web Store" className="h-4 w-4 mr-1.5" />
               <span className="text-[13px]">Add to Chrome — Free</span>
             </a>
           </Button>
