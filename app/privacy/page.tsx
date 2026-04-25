@@ -135,22 +135,19 @@ export default function PrivacyPage() {
               <p>
                 An optional feedback form may open when you uninstall the
                 extension to help improve the product. Completing it is entirely
-                voluntary. If completed, your responses and Typeform&apos;s standard
-                technical metadata (such as IP address) are processed by
-                Typeform under their privacy policy. We receive only your
-                selected responses. No data from this form is linked to your
-                identity or your AI Studio conversations.
+                voluntary — closing the tab means nothing is submitted.
               </p>
               <p className="mt-4">
-                <strong className="font-semibold text-[#e4e4e7]">No analytics, no telemetry, no tracking during extension use.</strong>
-                This is a standard uninstall survey using Chrome&apos;s official{" "}
-                <code className="text-[#e4e4e7] bg-[#1e1e24] px-1.5 py-0.5 rounded text-[13px]">
-                  chrome.runtime.setUninstallURL()
-                </code>{" "}
-                API, which simply tells Chrome to open a URL in a new browser
-                tab after the extension is already uninstalled. At that point
-                your extension no longer exists — it&apos;s just Chrome opening
-                a webpage. The extension doesn't send or collect your data while you use it.
+                If you choose to respond, Typeform processes your answers under
+                their own privacy policy. We receive only your selected
+                responses. Nothing is linked to your identity or your AI Studio
+                conversations.
+              </p>
+              <p className="mt-4">
+                <strong className="font-semibold text-[#e4e4e7]">
+                  The extension itself collects no data during use — no
+                  analytics, no telemetry, no tracking.
+                </strong>
               </p>
             </section>
 
