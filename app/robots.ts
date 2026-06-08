@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/preview/",
     },
-    sitemap: "https://aistudio-chat-exporter.vercel.app/sitemap.xml",
+    sitemap: "https://aiexport.vercel.app/sitemap.xml",
   };
 }

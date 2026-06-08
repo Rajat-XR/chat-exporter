@@ -4,7 +4,7 @@ import Providers from "@/components/Providers";
 
 /* ─── SEO Metadata (replaces index.html <head>) ────────────────────── */
 
-const SITE_URL = "https://aistudio-chat-exporter.vercel.app";
+const SITE_URL = "https://aiexport.vercel.app";
 
 export const metadata: Metadata = {
   title:
